@@ -6,9 +6,39 @@
 
 ## Front End
 
-### Front End made in Vue
+### Front End Dependencies
+
+- VueJS2
+- Vue Router
+- Bootstrap Vue
+- Font Awesome
 
 ## Back End
 
-### Back End made in NodeJS
-### Connects to MongoDB
+### Back End Dependencies
+
+- Node JS
+- Express
+- Mongoose
+- Cors
+
+## Installation
+
+First clone the repositiry. Then install the Vue App from frontend directory and server from backend directory.
+
+Then write in the console
+
+`npm install`
+
+## Running the App
+
+### Front End
+
+Start the Front End with:
+
+`npm run serve`
+
+Start Back End with:
+
+`node app.js`
+
