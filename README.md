@@ -26,7 +26,7 @@
 
 First clone the repositiry. Then install the Vue App from frontend directory and server from backend directory.
 
-Then write in the console
+In console write
 
 `npm install`
 
