@@ -415,12 +415,14 @@
           <b-col cols-md="6" cols-lg="4" class="my-3">
             <b-card
               title="Card Title"
-              img-src="https://picsum.photos/600/300/?image=25"
+              img-src="https://images.alko.fi/images/cs_srgb,f_auto,t_medium/cdn/762916/karhu-53-burk.jpg"
               img-alt="Image"
               img-top
               tag="article"
-              style="max-width: 20rem"
+              style="max-width: 20rem;"
               class="mb-2"
+              img-height="200px"
+              img-width="2rem"
             >
               <b-card-text>
                 Some quick example text to build on the card title and make up
@@ -460,11 +462,11 @@
           <b-col cols-md="6" cols-lg="4" class="my-3">
             <b-card
               title="Card Title"
-              img-src="https://picsum.photos/600/300/?image=25"
+              img-src="https://images.alko.fi/images/cs_srgb,f_auto,t_medium/cdn/762916/karhu-53-burk.jpg"
               img-alt="Image"
               img-top
               tag="article"
-              style="max-width: 20rem"
+              style="max-width: 20rem;"
               class="mb-2"
             >
               <b-card-text>

@@ -4,7 +4,7 @@ let Review = require("../models/Review");
 
 //GET Review
 const getAllReviews = function (req, res, next) {
-  Review.find(function (err, reviews) {
+  Review.find(function (err, review) {
     if (err) {
       return next(err);
     }
@@ -15,6 +15,8 @@ const getAllReviews = function (req, res, next) {
 //POST Review
 const createReview = function (req, res, next) {
   let review = new Review(req.body);
+
+  console.log(req.body);
 
   review.save(function (err, review) {
     if (err) {

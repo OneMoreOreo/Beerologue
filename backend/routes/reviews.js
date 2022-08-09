@@ -9,7 +9,7 @@ const {
   deleteReview,
   putReview,
   deleteAllReviews,
-} = require("../controllers/reviews");
+} = require("../controllers/Reviews.js");
 
 router.route("/").get(getAllReviews).post(createReview).delete(deleteAllReviews);
 router
